@@ -28,7 +28,7 @@ local CreateObjectEvent = RemoteFunctions.CreateObject
 local ObjectPropertyChangeRequestEvent = RemoteFunctions.ChangeObjectPropertyAndReturn
 local CheckpointEvent = RemoteEvents.ChangeHistoryInteractionRequested
  
-local AutoBuildGui, MainFrame, TitleLabel, ModelBox, NameBox, StartButton, CompletedSound = loadstring(game:HttpGet("https://raw.githubusercontent.com/BottedProgrammer/RetroStudio-Auto-Build-Backup/main/UI.lua"))()()
+local AutoBuildGui, MainFrame, TitleLabel, ModelBox, NameBox, StartButton, CompletedSound = loadstring(game:HttpGet("https://raw.githubusercontent.com/SteelAtomic/autobuild/main/ui"))()()
 local Properties = loadstring(game:HttpGet("https://raw.githubusercontent.com/SteelAtomic/autobuild/main/properties"))()
 local HashLib = require(ReplicatedStorage:WaitForChild('HashLib'))
  
