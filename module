@@ -29,7 +29,7 @@ local ObjectPropertyChangeRequestEvent = RemoteFunctions.ChangeObjectPropertyAnd
 local CheckpointEvent = RemoteEvents.ChangeHistoryInteractionRequested
  
 local AutoBuildGui, MainFrame, TitleLabel, ModelBox, NameBox, StartButton, CompletedSound = loadstring(game:HttpGet("https://raw.githubusercontent.com/BottedProgrammer/RetroStudio-Auto-Build-Backup/main/UI.lua"))()()
-local Properties = loadstring(game:HttpGet("https://raw.githubusercontent.com/BottedProgrammer/RetroStudio-Auto-Build-Backup/main/Properties.lua"))()
+local Properties = loadstring(game:HttpGet("https://raw.githubusercontent.com/SteelAtomic/autobuild/main/properties"))()
 local HashLib = require(ReplicatedStorage:WaitForChild('HashLib'))
  
 local CreatedInstances = 0
